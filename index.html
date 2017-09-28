@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Adding Users</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="users.js"></script>
+    </head>
+    <body>
+        <table id="users">
+            <tr id="header">
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td>Email Address</td>
+                <td>Contact #</td>
+            </tr>
+        </table>
+        <h1>Add User</h1>
+        <form>
+            <table id="form">
+                <tr>
+                    <td><label for="first_name">First Name:</label></td>
+                    <td><input type="text" id="first_name" name="first_name"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="last_name">Last Name:</label></td>
+                    <td><input type="text" id="last_name" name="last_name"></td> 
+                </tr>
+
+                <tr>    
+                    <td><label for="email">Email Address:</label></td>
+                    <td><input type="text" id="email" name="email"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="phone">Contact No.:</label></td>
+                    <td><input type="text" id="phone" name="phone"></td>
+                </tr>
+            </table>
+            <input id="button" type="submit" value="Add User">
+        </form>
+    </body>
+</html>
